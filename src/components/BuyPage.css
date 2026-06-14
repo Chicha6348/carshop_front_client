@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,12 +7,14 @@ body {
     color: #333;
 }
 
-/* Login Page Styles */
 .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    height: 100%;
+    margin-top: -200px;
+    margin-bottom: -100px;
     background: linear-gradient(135deg, #74b9ff, #a29bfe);
 }
 

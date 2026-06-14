@@ -1,3 +1,4 @@
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -31,4 +32,42 @@
 
 .details-button:hover {
     background-color: #2980b9;
+}
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+    color: #6c757d;
+}
+
+.not-found h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.not-found p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.not-found a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.not-found a:hover {
+    background-color: #0056b3;
 }

@@ -52,7 +52,7 @@ function Signup() {
     };
 
     return (
-        <div className="signup-container">
+        <div className="login-container" style={{marginTop:'-50px', marginBottom:'-50px'}}>
             <div className="signup-box">
                 <h2 className="signup-title">Sign Up</h2>
                 {error && <p className="signup-error">{error}</p>}

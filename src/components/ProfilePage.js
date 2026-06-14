@@ -115,7 +115,7 @@ const ProfilePage = (isAuthenticated) => {
                 <h2>Profile Information</h2>
                 {userInfo && (
                     <>
-                        {["fullName", "email", "phone", "address", "passportNumber", "passportSeries"].map((field) => (
+                        {["fullName", "email", "phone", "adress", "passportNumber", "passportSeries"].map((field) => (
                             <div className="editable-field" key={field}>
                                 <label>
                                     <strong>{field.charAt(0).toUpperCase() + field.slice(1)}:</strong>

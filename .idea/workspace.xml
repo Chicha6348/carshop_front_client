@@ -41,6 +41,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -58,6 +59,23 @@
       <recent name="C:\Users\gupal\IdeaProjects\carshop_front\src\components" />
       <recent name="C:\Users\gupal\IdeaProjects\carshop_front" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -84,6 +102,9 @@
       <workItem from="1735296781763" duration="20040000" />
       <workItem from="1735403711865" duration="9261000" />
       <workItem from="1735485845957" duration="15445000" />
+      <workItem from="1736522966888" duration="6480000" />
+      <workItem from="1736544961354" duration="2175000" />
+      <workItem from="1736609572091" duration="600000" />
     </task>
     <servers />
   </component>

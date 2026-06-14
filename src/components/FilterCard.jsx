@@ -69,11 +69,17 @@ const FilterCard = ({ onApplyFilters }) => {
     };
 
     const handleApplyFilters = () => {
-        const filteredFilters = Object.fromEntries(
-            Object.entries(filters).filter(([_, value]) => value !== "" && value !== null)
-        );
-        onApplyFilters(filteredFilters);
+        try {
+            const filteredFilters = Object.fromEntries(
+                Object.entries(filters).filter(([_, value]) => value !== "" && value !== null && value !== undefined)
+            );
+            console.log("Applying filters:", filteredFilters);
+            onApplyFilters(filteredFilters);
+        } catch (error) {
+            console.error("Error applying filters:", error);
+        }
     };
+
 
     return (
         <div className="filters-card">

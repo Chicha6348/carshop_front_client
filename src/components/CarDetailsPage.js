@@ -79,9 +79,11 @@ const CarDetailsPage = () => {
                             <strong>Availability:</strong> {carDetails.availability.type}
                         </p>
                     </div>
+
                     <button
                         className="buy-button"
                         onClick={() => navigate(`/buy/${id}`)}
+                        style={carDetails.availability.type == "Sold"?{display:"none"}:{}}
                     >
                         Buy Now
                     </button>
